@@ -1,0 +1,55 @@
+<section xml:id="secIntro">
+  <title>Introduction to Belhaven Mathematics</title>
+  <introduction>
+    <p>
+          <idx><h>Introduction to Belhaven Mathematics</h></idx>
+      The Mathematics and Computer Science Department (MCS) at Belhaven University rely on three crucial pillars:
+      <ul>
+        <li>
+          <p>
+            Community
+          </p>
+        </li>
+        <li>
+          <p>
+            Academic Experiences
+          </p>
+        </li>
+        <li>
+          <p>
+            Technology
+          </p>
+        </li>
+      </ul>
+    </p>
+    <p>
+      We will take time this semester to look at all of these this semester,
+      and we encourage all of our students to take it to heart.
+      In fact, we want all of our students to memorize the Mathematics and Computer Science Mission Statement.
+    </p>
+  </introduction>
+  <subsection>
+    <title>The MCS Mission Statement</title>
+    <p>
+          <idx><h>MCS Mission Statement</h></idx>
+    </p>
+    <p>
+      I pursue my career and calling through community,
+      academic experiences, and technology.
+    </p>
+  </subsection>
+  <subsection>
+    <title>Microsoft Teams</title>
+    <figure>
+      <image width="30%" source="images/teams pic.png"/>
+    </figure>
+    <p>
+      Most courses in the MCS utilize Microsoft Teams,
+      a professional, team-building messaging app.
+      The quickest and easiest way to support the Community pillar of the MCS Mission Statement is to simply download Teams,
+      join our course's team
+      (listed in the syllabus),
+      join the BelhavenSTEM team, and turn on notifications in both!
+    </p>
+  </subsection>
+</section>

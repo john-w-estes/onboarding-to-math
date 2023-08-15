@@ -1,0 +1,98 @@
+<section>
+  <title>Pascal's Triangle in Mathigon</title>
+  <introduction>
+    <p>
+      Mathigon is a fantastic and quickly-growing resource for mathematics.
+      There goal is offer <sq>free tools,
+      courses and manipulatives to make online learning more interactive and engaging than before.</sq> We will take now look at a section of one of Mathigon's courses
+      <q>Sequences and Patterns</q>.
+    </p>
+    <p>
+      From mathigon.org, navigate to Courses
+      <m>\rightarrow</m> Sequences and Patterns <m>\rightarrow</m> Pascal's Triangle.
+      Answer the following questions.
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Write out the first 8 rows of Pascal's Triangle.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          What patterns show up in the first four diagonals?
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          What numbers show up by adding entries of a given row of Pascal's Triangle?
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Describe how the Fibonacci sequence is encoded into Pascal's Triangle.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          What does mathematician David Singmaster conjecture?
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          What fractal is connected to Pascal's triangle?
+        </p>
+      </statement>
+    </exercise>
+  </introduction>
+  <subsection>
+    <title>Pascal's Triangle and Counting</title>
+    <p>
+      MathisFun.com shares a lot of interesting mathematical concepts including Pascal<sq>s Triangle.
+      Answer the following questions using MathisFun.com</sq>s ``Pascal's Triangle" article. \cite{mathisfun}
+    </p>
+    <p>
+      {https://www.mathsisfun.com/pascals-triangle.html}
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Use Pascal's Triangle to find <m>11^8</m>.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          If you flip a coin 5 times, in how many different ways can you flip 3 heads?
+          Use Pascal's Triangle to solve.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Pascal's Triangle can help count combinations.
+          Use Pascal's Triangle to deduce the number of ways we can select 5 objects out of 8.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Use Pascal's Triangle to expand <m>(x+y)^7</m>.
+        </p>
+      </statement>
+    </exercise>
+  </subsection>
+</section>

@@ -1,0 +1,7 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="chptTheWorldofCalculus">
+  <title>The World of Calculus</title>
+  <xi:include  href="secApplicationOfCalculus.ptx"/>
+  <xi:include  href="secArchimedesGreatIdea.ptx"/>
+  <xi:include  href="secPolarCoordinates.ptx"/>
+  <xi:include  href="secHWCalculusInTheMovies.ptx"/>
+</chapter>

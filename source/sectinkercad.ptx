@@ -1,0 +1,80 @@
+<section xml:id="sectinkercad">
+  <title>TinkerCAD</title>
+  <introduction>
+    <p>
+          <idx><h>TinkerCAD</h></idx>
+      In general, designing 3D objects can be difficult.
+      At times, it requires precision.
+      Other times, it requires an artistic hand.
+      Even though designing is not always quickly approachable,
+      thankfully there is TinkerCAD.
+    </p>
+  </introduction>
+  <subsection>
+    <title>Thingiverse</title>
+    <p>
+      TinkerCAD, from Autodesk, is a free online design app.
+      Designers can easily drag and drop manipulatives on a canvas to build 3D printable objects.
+    </p>
+    <figure>
+      <image width="13%" source="images/tinkercad.png"/>
+    </figure>
+    <exercise>
+      <statement>
+        <p>
+          Visit tinkercad.com, and setup an account.
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      \link{https://www.tinkercad.com/}
+    </p>
+    <p>
+      TinkerCAD has a quick tutorial to get students started designing quickly.
+      You should go through the tutorial!
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Complete the
+          <q>Learning the Moves</q>
+          and
+          <q>Camera Controls</q>
+          tutorials in TinkerCAD.
+        </p>
+      </statement>
+    </exercise>
+  </subsection>
+  <subsection>
+    <title>Blender</title>
+    <p>
+      TinkerCAD is the first place to look to become a designer,
+      but there many others.
+      Other popular design programs include
+      <ul>
+        <li>
+          <p>
+            AutoCAD (by Autodesk)
+          </p>
+        </li>
+        <li>
+          <p>
+            Inventor (by Autodesk)
+          </p>
+        </li>
+        <li>
+          <p>
+            Solidworks
+          </p>
+        </li>
+      </ul>
+    </p>
+    <p>
+      These products are professional, but not free.
+      However, Blender is another,
+      more sophisticated, design program that is completely free.
+      If you are interested in taking your design skills deeper,
+      you can can download Blender for free. \link{https://www.blender.org/}
+    </p>
+  </subsection>
+</section>

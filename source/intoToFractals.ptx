@@ -1,0 +1,135 @@
+<section xml:id="intoToFractals">
+  <title>Intro to Fractals</title>
+  <introduction>
+    <p>
+          <idx><h>Intro to Fractals</h></idx>
+      A fractal is a mathematical set in which each subpart is statistically similar to the whole.
+      We typically introduce fractals as a structure obtained through the process of iteration.
+    </p>
+    <p>
+      We will pull several interesting examples from Lippman's
+      <q>Math in Society</q>
+      \cite{math_in_society}. The first example illustrates the process of fractal generation of iteration.
+    </p>
+    <example xml:id="fractal_exmample1">
+      <statement>
+        <p>
+          Suppose that we start with a filled-in triangle.
+          At each step of iteration,
+          we connect the midpoint of each side and remove the middle triangle.
+          We then repeat these steps.
+        </p>
+        <figure>
+          <image width="46%" source="images/fractal example1.png"/>
+        </figure>
+      </statement>
+    </example>
+    <definition>
+      <statement>
+        <p>
+          The initial shape in a fractal is called the initiator,
+          and the iterative action is known as the generator.
+        </p>
+      </statement>
+    </definition>
+    <p>
+      In <xref ref="fractal_exmample1">Example</xref>,
+      the black triangle is the initiator,
+      and the iterative step is action of connecting the midpoints of each side and removing the middle triangle.
+    </p>
+  </introduction>
+  <subsection>
+    <title>Playing with Fractals (Group Work)</title>
+    <p>
+      Break into groups of three to complete the following exercises.
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Use the given initiators and generators to create the following iterative fractals.
+          Draw the iterative steps 1 through 3.
+        </p>
+      </statement>
+    </exercise>
+    <figure>
+      <image width="28%" source="images/fractal exercise 1.png"/>
+    </figure>
+    <figure>
+      <image width="28%" source="images/fractal exercise 2.png"/>
+    </figure>
+    <figure>
+      <image width="28%" source="images/fractal exercise 3.png"/>
+    </figure>
+  </subsection>
+  <subsection>
+    <title>Fraction Dimension</title>
+    <p>
+      We will discuss Dimension in more detail at a later time,
+      but we all have some intuition of dimension.
+    </p>
+    <figure xml:id="fig_fractal1">
+      <caption>Fractal examples</caption>
+      <image width="46%" source="images/fractal example1.png"/>
+    </figure>
+    <exercise>
+      <statement>
+        <p>
+          As a class, give an example of a 1-dimensional object.
+          How about a 2-dimensional object?
+          A 3-dimensional object?
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      Those are easy,
+      but what about the fractal known as Sierpinski's Triangle shown below?
+    </p>
+    <figure xml:id="fig_sierpinski">
+      <caption>Sierpinski`s Triangle</caption>
+      <image width="37%" source="images/sierpinski.png"/>
+    </figure>
+    <p>
+      It looks 2-dimensional, but is it?
+      Consider the situation in <xref ref="fractal_exmample1">Example</xref>.
+    </p>
+    <p>
+      Notice that the Step 1 figure has 1/3 the area of the generator figure,
+      and the Step 2 figure has 1/3 the area of the Step 1 figure.
+      Notice that if we keep going through this process,
+      we end up with Sierpinski's Triangle... and how much area does it have? 2?
+    </p>
+    <remark>
+      <p>
+        Fractals are interesting in that their measured dimension is not an integer!
+        Fractal dimension is found by
+        <me>
+          D = \dfrac{\log(C)}{\log{S}}
+        </me>,
+        where it takes <m>C</m> copies of the original shape to scale it by a factor of <m>S</m>.
+      </p>
+    </remark>
+    <example>
+      <statement>
+        <p>
+          The dimension of Sierpenski's Triangle is
+          <me>
+            D = \dfrac{\log{3}}{\log{2}} \approx \amp  1.58496
+          </me>.
+        </p>
+      </statement>
+    </example>
+    <p>
+      So Sierpenski's Triangle is not 1-dimensional!
+      Or 2-dimensional!
+      Its dimension is somewhere in between!
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          In your groups,
+          determine the dimensions of the previous three fractals.
+        </p>
+      </statement>
+    </exercise>
+  </subsection>
+</section>

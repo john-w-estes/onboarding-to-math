@@ -1,0 +1,75 @@
+<section xml:id="HWDefiningDimension">
+  <title>HOMEWORK: Defining Dimension</title>
+  <introduction>
+    <p>
+          <idx><h>HOMEWORK: Defining Dimension</h></idx>
+      We have now seen the dimension of fractals and of vector spaces.
+      Mathematician and author, David Richeson,
+      explored the concept of dimension further in amazing Quanta Magazine article:
+      <q>The Journey to Define Dimension</q>
+      \cite{richeson}.
+    </p>
+  </introduction>
+  <subsection>
+    <title>The Journey to Define Dimension</title>
+    <exercise>
+      <statement>
+        <p>
+          Read David Richeson's article
+          <q>The Journal to Define Dimension</q>
+          from Quanta Magazine.
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      \link{https://www.quantamagazine.org/a-mathematicians-guided-tour-through-high-dimensions-20210913/ }
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Describe what we would observe if a 4-dimensional sphere collided with our 3-dimensional space.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          List four people mentioned in this article and their contribution to the discussion of dimension.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Georg Cantor talked about the cardinality of infinity.
+          What does he mean by
+          <q>cardinality</q>? Explain what Cantor was referring to when he said,
+          <q>I see it, but I do not believe it.</q>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          How did Hausdorff define dimension?
+          What mathematical concept came from his definition?
+        </p>
+      </statement>
+    </exercise>
+  </subsection>
+  <subsection>
+    <title>Quanta Magazine</title>
+    <p>
+      Quanta Magazine offers a lot of interesting high-level content in the sciences and mathematics.
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Find an article from Quanta Magazine that is interesting to you,
+          and post a link to it in the Canvas discussino post
+          <q>Quanta Magazine</q>.
+        </p>
+      </statement>
+    </exercise>
+  </subsection>
+</section>

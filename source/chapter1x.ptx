@@ -1,0 +1,6 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" >
+  <title>Bibliography</title>
+  <xi:include  href="section10-1x.ptx"/>
+  <xi:include  href="section10-2x.ptx"/>
+  <xi:include  href="section10-3x.ptx"/>
+</chapter>

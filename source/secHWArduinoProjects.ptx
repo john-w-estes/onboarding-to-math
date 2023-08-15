@@ -1,0 +1,38 @@
+<section xml:id="secHWArduinoProjects">
+  <title>HOMEWORK: Arduino Projects</title>
+  <p>
+        <idx><h>HOMEWORK: Arduino Projects</h></idx>
+    As we've mentioned, Arduino projects are often open source.
+    You can find interesting Arduino ideas through
+    <ul>
+      <li>
+        <p>
+          Arduino Projects Hub
+        </p>
+      </li>
+      <li>
+        <p>
+          Hackster.io
+        </p>
+      </li>
+      <li>
+        <p>
+          Instructables.com
+          (just to name a few).
+        </p>
+      </li>
+    </ul>
+  </p>
+  <exercise>
+    <statement>
+      <p>
+        Search online for an Arduino project that you find to be interesting.
+        Post a link to it in the Canvas assignment
+        <q>Arduino Projects</q>. Explain why you feel this is an interesting project.
+      </p>
+    </statement>
+  </exercise>
+  <p>
+    \part{Bibliography}
+  </p>
+</section>

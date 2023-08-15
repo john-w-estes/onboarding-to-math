@@ -1,0 +1,303 @@
+<section xml:id="secGeogebraAndLinear">
+  <title>Geogebra and Linear Transformations</title>
+  <introduction>
+    <p>
+          <idx><h>Geogebra and Linear Transformations</h></idx>
+      In this lab, we will use Geogebra, a fantastic tool for visualizing and animating mathematical concepts, to explore applications of linear transformations in the plane.
+      Before getting started,
+      visit geogebra.org and either download Geogebra Classic 6
+      (found under App Downloads)
+      or use the web applet.
+      Downloading the app is recommended,
+      and in either case, be sure to set up a free Geogebra account.
+    </p>
+  </introduction>
+  <subsection>
+    <title>Linear Transformations and the Standard Matrix</title>
+    <p>
+      Believe it or not,
+      matrix multiplication happens before our eyes all of the time.
+      Many computer graphics and graphic design elements rely on vector graphics and something called
+      <q>linear transformation</q>. For example,
+      the linear transformation that maps vector <m>\left[\begin{array}{c} x\\ y \end{array} \right]</m> to vector
+      <m>\left[\begin{array}{c} ax + by\\ cx + dy \end{array} \right]</m> can be characterized by its standard matrix
+      <m>A = \left[\begin{array}{cc} a \amp b\\ c \amp d \end{array} \right]</m> as seen by the following calculation.
+    </p>
+    <example>
+      <statement>
+        <me>
+          \left[\begin{array}{cc}
+          a \amp  b\\
+          c \amp  d
+          \end{array} \right] \hspace{1em} \left[\begin{array}{c}
+          x\\
+          y
+          \end{array} \right] = \left[\begin{array}{c}
+          ax + by\\
+          cx + dy
+          \end{array} \right]
+        </me>
+      </statement>
+    </example>
+    <p>
+      The linear transformation <m>T: \mathbb{R}^2 \rightarrow \mathbb{R}^2</m> with standard matrix <m>A</m> can be visualized geometrically by the way it transforms an object.
+      This is what we want to do in this section.
+    </p>
+  </subsection>
+  <subsection>
+    <title>Geogebra Setup</title>
+    <exercise>
+      <title>Drawing our Polygon</title>
+      <statement>
+        <p>
+          Once you have Geogebra opened,
+          place five to ten points into the plane with each point within the rectangle <m>[-5,5] \times [-5,5]</m>.
+          You can do this by simply selecting
+          <q>point</q>
+          from the
+          <q>Tools</q>
+          menu and clicking where in the plane you want those points.
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      In the Algebra menu,
+      notice that each of these points has a name and a coordinate.
+      If we use the
+      <q>Move</q>
+      tool, we can drag a point in the plane,
+      and its coordinate value updates dynamically.
+    </p>
+    <p>
+      Now select
+      <q>Polygon</q>
+      from the
+      <q>Polygons</q>
+      menu, and connect your dots to form a polygon in the plane.
+      This is the shape we will manipulate.
+      Draw your polygon in the space below.
+      (You may hide the labels and change colors within the Settings menu if you would like.)
+    </p>
+    <p>
+      <image width="56%" source="images/geogebragrid.png"/>
+    </p>
+    <exercise>
+      <title>Defining our Matrix</title>
+      <statement>
+        <p>
+          In the Algebra menu, type
+          <q>matrix = <m>\{ \{ 1, 0 \}, \{ 0, 1 \} \}</m></q>. The output should be <m>I_2</m>,
+          the <m>2 \times 2</m> identity matrix.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <title>Adding our vectors</title>
+      <statement>
+        <p>
+          Now that we have our polygon and a matrix, find the
+          <q>Vectors</q>
+          tool under the
+          <q>Lines</q>
+          menu, and add vectors that start at the origin and end at each point of our polygon.
+          Check to see in the Algebra menu that each vector is of the form Vector(G, A), meaning that each vector is defined by two points.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <title>Matrix Multiplication</title>
+      <statement>
+        <p>
+          In the Algebra menu, multiply each vector Vector(G, A) by our matrix.
+          We do this by placing our cursor before
+          <q>Vector</q>
+          and typing
+          <q>(matrix Vector(G,A))</q>
+          Do this for each vector.
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      <image width="37%" source="images/geogebratransforms1.png"/>
+    </p>
+    <p>
+      By multiplying each vector by the identity matrix,
+      we have performed a transformation that does not move anything.
+      We will change
+      <q>matrix</q>
+      in the next section to perform different transformations on our polygon.
+    </p>
+    <exercise>
+      <title>Drawing our New Polygon</title>
+      <statement>
+        <p>
+          For our visual to work correctly,
+          we must hide our polygon and draw a new one.
+          To do so, complete the following.
+        </p>
+      </statement>
+    </exercise>
+    <ol>
+      <li>
+        <p>
+          In the Algebra menu,
+          click the colored circle on the left margin beside each point and the polygon to hide those objects.
+          You should only see your vectors.
+        </p>
+      </li>
+      <li>
+        <p>
+          Add new points at the end of each vector.
+          Check in the Algebra menu that each point is defined by the vector like in the picture below.
+          <image width="37%" source="images/geogebratransforms2.png"/>
+        </p>
+      </li>
+      <li>
+        <p>
+          Draw a polygon connecting your new points.
+          It should look identical to your original, hidden polygon.
+        </p>
+      </li>
+      <li>
+        <p>
+          Lastly, hide your vectors and unhide your original polygon.
+        </p>
+      </li>
+    </ol>
+    <p>
+      We are now ready to perform some transformations!
+    </p>
+  </subsection>
+  <subsection>
+    <title>Testing Different Matrices</title>
+    <p>
+      Now that we have our Geogebra configuration correct,
+      all we need to do is to change our matrix to perform a transformation.
+      Redefine your matrix with the following matrices.
+      Then draw your result and describe what transformation that matrix applied.
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Update your matrix to the following.
+          <m>\left[\begin{array}{cc} -1 \amp 0\\ 0 \amp 1 \end{array} \right]</m>
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      <image width="56%" source="images/geogebragrid.png"/>
+    </p>
+    <p>
+      What type of transformation is this? \rule{5cm}{0.15mm}
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Update your matrix to the following.
+          <m>\left[\begin{array}{cc} 1 \amp 0\\ 0 \amp -1 \end{array} \right]</m>
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      <image width="56%" source="images/geogebragrid.png"/>
+    </p>
+    <p>
+      What type of transformation is this? \rule{5cm}{0.15mm}
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Update your matrix to the following <m>\left[\begin{array}{cc} 2 \amp 0\\ 0 \amp 2 \end{array} \right]</m>
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      <image width="56%" source="images/geogebragrid.png"/>
+    </p>
+    <p>
+      What type of transformation is this? \rule{5cm}{0.15mm}
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Update your matrix to the following <m>\left[\begin{array}{cc} 2 \amp 0\\ 0 \amp 1 \end{array} \right]</m>
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      <image width="56%" source="images/geogebragrid.png"/>
+    </p>
+    <p>
+      What type of transformation is this? \rule{5cm}{0.15mm}
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Update your matrix to the following <m>\left[\begin{array}{cc} 0 \amp 1\\ 1 \amp 0 \end{array} \right]</m>
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      <image width="56%" source="images/geogebragrid.png"/>
+    </p>
+    <p>
+      What type of transformation is this? \rule{5cm}{0.15mm}
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Update your matrix to the following <m>\left[\begin{array}{cc} 1 \amp 3\\ 0 \amp 1 \end{array} \right]</m>
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      <image width="56%" source="images/geogebragrid.png"/>
+    </p>
+    <p>
+      What type of transformation is this? \rule{5cm}{0.15mm}
+    </p>
+  </subsection>
+  <subsection>
+    <title>Rotating our Polygon</title>
+    <p>
+      Now we will animate a rotation of our object.
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Select
+          <q>slider</q>
+          from the Basic Tools menu and add it to the plane.
+          A menu should pop up.
+          Take note of the slider name,
+          and set the Min to be -2pi and the Max to be 2pi.
+          For our example, the slider name is
+          <q>p</q>.
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      <image width="37%" source="images/geogebratransforms3.png"/>
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Now redefine matrix as <m>\left[\begin{array}{cc} \cos(p) \amp \sin(p)\\ -\sin(p) \amp \cos(p) \end{array} \right]</m>.
+          Be sure the inserted angle is the name of your slider.
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      What is happening to your polygon as you toggle your slider?
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Under the Settings menu, select
+          <q>Share</q>. Copy the link to your Geogebra activity and post it in Canvas under the assignment
+          <q>Geogebra Transformation</q>.
+        </p>
+      </statement>
+    </exercise>
+  </subsection>
+</section>

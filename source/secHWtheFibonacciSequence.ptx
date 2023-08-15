@@ -1,0 +1,235 @@
+<section xml:id="secHWtheFibonacciSequence">
+  <title>HOMEWORK: The Fibonacci Sequence</title>
+  <introduction>
+    <p>
+          <idx><h>HOMEWORK: The Fibonacci Sequence</h></idx>
+      The Fibonacci Sequence is probably the most famous of recursively defined sequences.
+      A recursively defined sequence is a sequence in which the next term in the sequence is given by a formula of previous term in the sequence.
+    </p>
+    <p>
+      The Fibonacci Numbers are defined as follows:
+      <me>
+        F_1 = 1, \; F_2 = 1 \; \text{ and }  F_n=F_{n-1}+F_{n-2} {for } n\geq 3
+      </me>.
+    </p>
+    <p>
+      So then the Fibonacci Sequence can be listed as 1, 1, 2, 3, 5, <m>\ldots</m>.
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Write out the first 15 Fibonacci numbers.
+        </p>
+      </statement>
+    </exercise>
+    <ol>
+      <li>
+        <p>
+          <m>F_1 =</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>F_2 =</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>F_3 =</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>F_4 =</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>F_5 =</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>F_6 =</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>F_7 =</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>F_8 =</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>F_9 =</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>F_{10} =</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>F_{11} =</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>F_{12} =</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>F_{13} =</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>F_{14} =</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>F_{15} =</m>
+        </p>
+      </li>
+    </ol>
+  </introduction>
+  <subsection>
+    <title>Number Formulas with Fibonacci Numbers</title>
+    <p>
+      There are a lot of interesting Fibonacci number formulas we can prove with basic proof techniques.
+      We won't worry about proofs here
+      (leave that for Discrete Math and Proof Exposition),
+      but we will look at a few interesting examples.
+    </p>
+    <theorem xml:id="fib1">
+      <statement>
+        <p>
+          The Fibonacci Sequence obeys <m>F_{n+1}^2 - F_{n+1}F_n- F_n^2 = (-1)^n</m>.
+        </p>
+      </statement>
+    </theorem>
+    <exercise>
+      <statement>
+        <p>
+          Verify <xref ref="fib1">Theorem</xref> for <m>n = 8</m>.
+        </p>
+      </statement>
+    </exercise>
+    <theorem xml:id="fib2">
+      <statement>
+        <p>
+          The Fibonacci Sequence obeys <m>F_1 + F_2 + F_3 + F_4 + \ldots + F_n = F_{n+2} - 1</m>.
+        </p>
+      </statement>
+    </theorem>
+    <exercise>
+      <statement>
+        <p>
+          Verify <xref ref="fib2">Theorem</xref> for <m>n = 8</m>.
+        </p>
+      </statement>
+    </exercise>
+    <theorem xml:id="fib3">
+      <statement>
+        <p>
+          The Fibonacci Sequence obeys <m>F_1 + F_3 + F_5 + F_7 + \ldots + F_{2n-1} = F_{2n}</m>.
+        </p>
+      </statement>
+    </theorem>
+    <exercise>
+      <statement>
+        <p>
+          Verify <xref ref="fib2">Theorem</xref> for <m>n = 8</m>.
+        </p>
+      </statement>
+    </exercise>
+  </subsection>
+  <subsection>
+    <title>The Golden Rectangle</title>
+    <p>
+      As we'll see,
+      the Fibonacci Sequence appears in many surprising places.
+      Two of its direct applications are the Golden Rectangle and Golden Spiral.
+      Let's take a look.
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Use, as a reference, the article
+          <q>Patterns in Natures: Where to Spot Spirals</q>
+          to construct the Golden Rectangle and the Golden Spiral \cite{fibonacci}.
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      {https://www.scienceworld.ca/stories/patterns-nature-where-spot-spirals/}
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Give an example of where the Golden Rectangle or the Golden Spiral appears in nature.
+        </p>
+      </statement>
+    </exercise>
+  </subsection>
+  <subsection>
+    <title>Fibonacci Numbers and Plants</title>
+    <p>
+      Youtuber, Vihart,
+      has a great illustration of the Fibonacci Sequence's appearance among plants.
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Watch Vihart's YouTube video ``Doodling in Math: Spirals, Fibonacci,
+          and Being a Plant [1 of 3]" \cite{vihart}.
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      {https://youtu.be/ahXIMUkSXX0}
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          After reading the Science World article and watching Vihart's video,
+          write your thoughts about the Fibonacci sequence.
+        </p>
+      </statement>
+    </exercise>
+  </subsection>
+  <subsection>
+    <title>More Fibonacci</title>
+    <p>
+      We have only explored a few places where the Fibonacci sequence appears in real life.
+      Let's find some more.
+    </p>
+    <exercise xml:id="onlinefibonacci">
+      <statement>
+        <p>
+          Look online to find 10 places you can find the Fibonacci sequence.
+          Be sure to include the golden rectangle,
+          the golden spiral, nature, and art in your list.
+        </p>
+      </statement>
+    </exercise>
+    <ol>
+    </ol>
+    <exercise>
+      <statement>
+        <p>
+          Choose one of the items in <xref ref="onlinefibonacci">Exercise</xref>
+          and share in the Canvas discussion
+          <q>Fibonacci in the World</q>. Be sure to include your source as well.
+        </p>
+      </statement>
+    </exercise>
+  </subsection>
+</section>

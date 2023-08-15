@@ -1,0 +1,7 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="chaptMathCommunity">
+  <title>The Math Community</title>
+  <xi:include  href="secBelhavenCommunity.ptx"/>
+  <xi:include  href="secAcademicExperience.ptx"/>
+  <xi:include  href="secFurtherRecs.ptx"/>
+  <xi:include  href="secHWTao.ptx"/>
+</chapter>

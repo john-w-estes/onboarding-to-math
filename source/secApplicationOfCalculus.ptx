@@ -1,0 +1,38 @@
+<section xml:id="secApplicationOfCalculus">
+  <title>Applications of Calculus</title>
+  <p>
+        <idx><h>Applications of Calculus</h></idx>
+    You probably have heard of calculus, but it's common to not know what calculus is about.
+    Calculus may be the best answer to the question
+    <q>When will I ever need math?</q>
+    In his book
+    <q>Infinite Powers</q>, mathematician Steven Strogatz argues that calculus is the greatest human discovery \cite{infinite_powers}. How can that be?
+    Why is calculus deemed to be so important?
+  </p>
+  <p>
+    Calculus is the field of mathematics that harnesses the power of infinity.
+    Through it, we can model movement, change,
+    and a huge amount of other important applications in chemistry, biology,
+    computer science, business, physics,
+    engineering, and so much more.
+  </p>
+  <exercise xml:id="calapps">
+    <statement>
+      <p>
+        With a group,
+        search online for places where calculus is used in application or has led to development in some field.
+        Try to find six applications.
+      </p>
+    </statement>
+  </exercise>
+  <ol>
+  </ol>
+  <exercise>
+    <statement>
+      <p>
+        While groups are sharing what they discovered,
+        list a few applications that you did have written in <xref ref="calapps">Exercise</xref>.
+      </p>
+    </statement>
+  </exercise>
+</section>

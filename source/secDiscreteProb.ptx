@@ -1,0 +1,99 @@
+<section xml:id="secDiscreteProb">
+  <title>Discrete Probability</title>
+  <introduction>
+    <p>
+          <idx><h>Discrete Probability</h></idx>
+      Your friend (not as diligent as you) did not study for his American History test.
+      It's multiple choice,
+      so he knows he has a chance to get each answer correct by simply guessing.
+      There are 25 questions with 4 answer choices each,
+      how likely is it that your friend passes the test?
+      There is .000043 chance that your friend scores a 60% or higher!
+      His hope is misplaced!
+    </p>
+    <p>
+      Probability is the mathematical tool used to calculate the likelihood of an event,
+      and we find probability either through counting or measuring area.
+      Probability questions handled by counting are called discrete probability questions.
+    </p>
+  </introduction>
+  <subsection>
+    <title>Flipping Some Coins</title>
+    <example xml:id="flipcoins">
+      <statement>
+        <p>
+          For example,
+          what is probability of flipping two heads in two coin flips?
+        </p>
+        <p>
+          <em>Solution:</em> First, we need to count the ways we can flip two coins.
+          This set of all possibilities is called the <em>universal set</em>.
+          <men>
+            S = \{TT, TH, HT, HH\}
+          </men>
+        </p>
+        <p>
+          Next we find the ways our event is satisfied.
+          This set is called the <em>event set</em>.
+          <men>
+            A = \{HH\}
+          </men>
+        </p>
+        <p>
+          Since out of the four possible options,
+          only one satisfied what we want,
+          we say that the probability we want is <m>P(A) = |A| / |S| = 1/4</m>.
+        </p>
+      </statement>
+    </example>
+    <p>
+      <xref ref="flipcoins">Example</xref>
+      illustrates how to calculate probability.
+    </p>
+    <definition>
+      <statement>
+        <p>
+          Let <m>A</m> be a subset of a universal set <m>U</m>.
+          Then the probability of <m>A</m> is <m>P(A) = |A|/|S|</m>.
+        </p>
+      </statement>
+    </definition>
+    <p>
+      Let's practice this idea.
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          What is the probability of flipping exactly one head in two coin flips?
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          What is the probability of flipping one head in three coin flips? (Find the universal and event sets.)
+        </p>
+      </statement>
+    </exercise>
+  </subsection>
+  <subsection>
+    <title>Die Rolls</title>
+    <p>
+      We will look at a new context, but the same ideas apply.
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          What is the probability of rolling an odd number when rolling a six-sided die?
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          What is the probability of rolling a sum of 7 when rolling two six-sided die?
+        </p>
+      </statement>
+    </exercise>
+  </subsection>
+</section>

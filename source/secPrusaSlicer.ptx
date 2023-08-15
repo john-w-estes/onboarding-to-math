@@ -1,0 +1,269 @@
+<section xml:id="secPrusaSlicer">
+  <title>Prusa Slicer</title>
+  <introduction>
+    <p>
+          <idx><h>Prusa Slicer</h></idx>
+      In <xref ref="tinkercad">Section</xref>, we learned how to find things to print, and in <xref ref="x3dprint">Section</xref> we learned the slicing process to move the object to the print.
+      Now we will introduce the Prusa Slicer software,
+      practice slicing, and 3D print an object.
+    </p>
+  </introduction>
+  <subsection>
+    <title>Prusa</title>
+    <p>
+      Prusa printers have skyrocketed in popularity over the past ten years and has become one of the most common mid-sized commercial printers.
+      They are known for excellent quality,
+      consistency, and easy use.
+      We will learn how to use the Prusa i3 MK3s+ pictured in <xref ref="fig_prusai3">Figure</xref>.
+    </p>
+    <figure>
+      <image width="56%" source="images/prusa.png"/>
+    </figure>
+    <exercise>
+      <statement>
+        <p>
+          Visit prusa3d.com, and download the Prusa Slicer software.
+          You can find it under Software.
+          Be sure to select Prusa Mini+ and the i3 MK3s+ profiles when prompted.
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      \link{https://www.prusa3d.com/}
+    </p>
+  </subsection>
+  <subsection>
+    <title>Prusa Slicer</title>
+    <p>
+      Now we will look at the Prusa Slicer.
+      Upon opening the Prusa Slicer,
+      you should see the following screen.
+    </p>
+    <figure>
+      <image width="73%" source="images/prusaslicer_words.png"/>
+    </figure>
+    <p>
+      There is a lot going on here,
+      so let's take a look at a few things.
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Identify where to find the following elements using <xref ref="fig_prusaslicer">Figure</xref> as a reference.
+        </p>
+        <ol>
+          <li>
+            <p>
+              Adding stl files
+            </p>
+          </li>
+          <li>
+            <p>
+              Verify settings:
+            </p>
+            <ol>
+              <li>
+                <p>
+                  Print settings
+                </p>
+              </li>
+              <li>
+                <p>
+                  Filament
+                </p>
+              </li>
+              <li>
+                <p>
+                  Printer
+                </p>
+              </li>
+              <li>
+                <p>
+                  Supports
+                </p>
+              </li>
+              <li>
+                <p>
+                  Infill
+                </p>
+              </li>
+            </ol>
+          </li>
+          <li>
+            <p>
+              Editing tools such as scaling, placement, and rotation
+            </p>
+          </li>
+          <li>
+            <p>
+              The Canvas
+            </p>
+          </li>
+          <li>
+            <p>
+              The Canvas and Sliced file viewing option
+            </p>
+          </li>
+          <li>
+            <p>
+              The Slice Button.
+            </p>
+          </li>
+        </ol>
+      </statement>
+    </exercise>
+  </subsection>
+  <subsection>
+    <title>Our first print</title>
+    <p>
+      Click the
+      <q>Add</q>
+      button and select your desired stl file.
+      Your object will appear in the center of the canvas in green.
+    </p>
+    <figure>
+      <image width="73%" source="images/prusaslicer_squirtle.png"/>
+    </figure>
+    <exercise>
+      <statement>
+        <p>
+          Add an stl file into the Prusa Slicer canvas.
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      Now it's time to adjust settings.
+    </p>
+  </subsection>
+  <subsection>
+    <title>Layer Height</title>
+    <p>
+      Under the
+      <q>Print Settings</q>
+      category, you can adjust the print's layer height.
+      The default layer height is 0.15 mm,
+      which is great for most projects.
+      However, you can change this height depending on the project.
+    </p>
+    <p>
+      The rule of thumb is the smaller the layer height,
+      the longer the print will take.
+      However, a smaller layer height leaves more room for detail in your print.
+    </p>
+  </subsection>
+  <subsection>
+    <title>Filament</title>
+    <p>
+      Each filament material requires it's own temperature settings.
+      Trying to use material different that the sliced setting will more than likely end in disaster!
+    </p>
+    <p>
+      The most common print material is PLA. More than 90% of Belhaven's Maker Campus prints are in PLA.
+    </p>
+  </subsection>
+  <subsection>
+    <title>Supports</title>
+    <figure>
+      <image width="20%" source="images/prusaslicer_supports.png"/>
+    </figure>
+    <p>
+      Some objects, such as a rhinoceros,
+      cannot be printed by themselves.
+      For example,
+      the rhinoceros' stomach would have to be printed midair since the nozzle only traverses in the z-direction.
+      To fix this issue, we can add supports.
+    </p>
+    <p>
+      Support is additional printed material to allow our object to printed completely.
+      This material is designed to be removed after the print is completed.
+      You can see how the support material appears in the sliced version of a file in <xref ref="fig_prusaslicer_supports">Figure</xref>.
+    </p>
+  </subsection>
+  <subsection>
+    <title>Infill</title>
+    <p>
+      A print's infill percentage is measurement of how dense it is on the inside.
+      A print with 100% infill is completely solid,
+      while 0% infill is completely hollow.
+      In practice,
+      you rarely set infill to 100% unless the piece will be structural under a lot of stress
+      (like needing to withstand torque).
+    </p>
+  </subsection>
+  <subsection>
+    <title>Laying out the canvas</title>
+    <p>
+      Using the tools on the left side of the Slicer screen,
+      you can arrange your object to fit your need.
+      The top icon moves your object in the plane while the next two adjust scaling and rotation respectively.
+    </p>
+    <p>
+      The other tools are for more advanced uses,
+      which we won't cover here.
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Lay out your canvas as needed.
+          Try moving your object in the plane.
+          Try scaling it up or down, and then try rotation.
+        </p>
+      </statement>
+    </exercise>
+    <remark>
+      <p>
+        If you make a mistake, use <em>CTRL+Z</em>
+        to undo your previous action.
+      </p>
+    </remark>
+  </subsection>
+  <subsection>
+    <title>Slicing Preview</title>
+    <p>
+      For our first print, we do not need to adjust settings
+      (unless you need supports),
+      so we are ready to slice.
+      Go ahead and click the
+      <q>Slice now</q>
+      button.
+    </p>
+    <figure>
+      <image width="20%" source="images/prusaslicer_squirtlesliced.png"/>
+    </figure>
+    <p>
+      Once Prusa Slicer has finished slicing,
+      you should see your model in a different color.
+      This is the sliced view
+      (notice the lower left corner).
+      From here you can see how each layer will look by scrolling up and down the orange bar to the right of the canvas,
+      and even see how the nozzle will run on that layer with the orange bar below the image.
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Slice your object.
+          Scroll through your layers to see what the machine will do when printing your object.
+        </p>
+      </statement>
+    </exercise>
+  </subsection>
+  <subsection>
+    <title>Exporting Your File</title>
+    <p>
+      Notice that once you sliced your object, the
+      <q>Slice now</q>
+      button now reads
+      <q>Export G-code</q>. Clicking this button now will allow you to save the g-code file somewhere.
+      The g-code file is the file your printer needs to understand how to print your object exactly how you want it printed.
+    </p>
+    <p>
+      The easiest way to transfer your g-code file is to take the printer's SD card,
+      insert it into your computer (You can use the lab's card reader dongle if needed.), and to save the file directly to the SD card.
+      Prusa slicer makes this very easy with a button that saves the sliced g-code file directly to your inserted drive.
+    </p>
+    <p>
+      You are now ready to print,
+      and your instructor will demonstrate how to operate the Prusa i3 MK3s+.
+    </p>
+  </subsection>
+</section>
