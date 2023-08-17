@@ -1,0 +1,5 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="chptProbabilityAndStats">
+  <title>Probability and Stats</title>
+  <xi:include  href="secDiscreteProb.ptx"/>
+  <xi:include  href="secMontyHall.ptx"/>
+</chapter>

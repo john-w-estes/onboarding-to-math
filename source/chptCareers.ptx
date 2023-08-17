@@ -1,0 +1,5 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="chptCareers">
+  <title>Careers in Mathematics</title>
+  <xi:include  href="secMathCareer.ptx"/>
+  <xi:include  href="secHWcareers.ptx"/>
+</chapter>

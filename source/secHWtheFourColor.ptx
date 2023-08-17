@@ -1,0 +1,111 @@
+<section xml:id="secHWtheFourColor">
+  <title>HOMEWORK: The Four Color Theorem</title>
+  <introduction>
+    <p>
+          <idx><h>HOMEWORK: The Four Color Theorem</h></idx>
+      Consider the map of the United States in <xref ref="map">figure</xref>.
+      You are challenged to color the map with the rule that bordering states cannot have the same color.
+      Overall this is pretty easy, BUT we also want to use the fewest colors possible.
+      How many colors do you need to do this?
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Color the map in the fewest colors possible,
+          where neighboring states do not share a color.
+        </p>
+      </statement>
+    </exercise>
+    <figure>
+      <image width="73%" source="images/US_map.png"/>
+    </figure>
+    <p>
+      This is actually a graph theory question.
+      In graph theory,
+      mathematicians are often curious about the minimum number of colors required to color the vertices so that neighboring vertices do not share the same color.
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Draw a graph where the vertices can be colored in 2 colors.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Draw a graph in which 3 colors are needed to color the graph.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          How about a graph that requires 5 colors?
+        </p>
+      </statement>
+    </exercise>
+  </introduction>
+  <subsection>
+    <title>The Four Color Theorem</title>
+    <p>
+      Remember Numberphile?
+      They have yet another excellent video about the incredible Four Color Theorem.
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Watch the Numberphile video
+          <q>The Four Color Map Theorem</q>, \cite{numberphile_fourcolor}
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      {https://www.youtube.com/watch?v=NgbK43jB4rQ}
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          How many colors do we need to color any map so that neighboring countries do not share the same color?
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          When was the Four Color Theorem finally solved?
+          Who proved it?
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          When phrasing the question in terms of graph theory.
+          How do we represent countries?
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          What is the benefit of phrasing the Four Color Theorem as a graph theory problem?
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Give a brief explanation of the argument that map needs no more than seven colors.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Why was Appel and Haken's proof controversial?
+        </p>
+      </statement>
+    </exercise>
+  </subsection>
+</section>

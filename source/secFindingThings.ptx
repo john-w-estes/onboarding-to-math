@@ -1,0 +1,78 @@
+<section xml:id="secFindingThings">
+  <title>Finding Things</title>
+  <introduction>
+    <p>
+          <idx><h>Finding Things</h></idx>
+      What do you want to print?
+      Do you have to design everything?
+      Thankfully, no.
+      Becoming a skilled designer takes time and experience,
+      and many of us want to start 3D printing well before we can design our own things.
+    </p>
+    <p>
+      Luckily, there are some great resources where designers can share their designs and where we can download them to print ourselves.
+    </p>
+  </introduction>
+  <subsection>
+    <title>Thingiverse</title>
+    <p>
+      The quickest way to find good STL files is with Thingiverse,
+      a social media platform for 3D printing enthusiasts to share their designs.
+    </p>
+    <figure>
+      <image width="13%" source="images/Thingiverse_Logo_192x192.png"/>
+    </figure>
+    <exercise>
+      <statement>
+        <p>
+          Visit thingiverse.com, and setup an account.
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      \link{https://www.thingiverse.com/}
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Find something you think looks cool,
+          and post a link to it under the Cool STL assignment found in Canvas.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Find a thing from Thingiverse that you would like to print.
+          This object must have only one STL file.
+          Send a link to this thing to your instructor for approval.
+          This will be your first print.
+        </p>
+      </statement>
+    </exercise>
+  </subsection>
+  <subsection>
+    <title>Other Places for Things</title>
+    <p>
+      Thingiverse is not the only pace to find things.
+      You can also find STL files at
+      <ul>
+        <li>
+          <p>
+            Thangs \link{https://thangs.com}
+          </p>
+        </li>
+        <li>
+          <p>
+            Cults3D \link{https://cults3d.com/en}
+          </p>
+        </li>
+        <li>
+          <p>
+            Printables by Prusa \link{https://www.printables.com/en}
+          </p>
+        </li>
+      </ul>
+    </p>
+  </subsection>
+</section>

@@ -1,0 +1,96 @@
+<section xml:id="HwTheMengerSponge">
+  <title>HOMEWORK: The Menger Sponge and the Mandlebrot Set</title>
+  <introduction>
+    <p>
+          <idx><h>HOMEWORK: The Menger Sponge and the Mandlebrot Set</h></idx>
+      There are several famous fractals of interest.
+      We already saw Sierpinski's Triangle.
+      Another one of these is the Menger Sponge.
+    </p>
+    <figure xml:id="fig_menger">
+      <caption>The Menger Sponge</caption>
+      <image width="56%" source="images/menger.png"/>
+    </figure>
+  </introduction>
+  <subsection>
+    <title>A Few of My Favorite Spaces</title>
+    <p>
+      Mathematician Evelyn Lamb has written as an incredible series entitled
+      <q>A Few of My Favorite Space</q>
+      for Scientific American covering different mathematical spaces.
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Read
+          <q>A Few of My Favorite Spaces: The Menger Sponge</q>
+          by Evelyn Lamb in Scientific American \cite{menger}.
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      { https://blogs.scientificamerican.com/roots-of-unity/a-few-of-my-favorite-spaces-the-menger-sponge/.}
+    </p>
+  </subsection>
+  <subsection>
+    <title>A Few Questions</title>
+    <p>
+      After reading Lamb's article,
+      address the following questions.
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          How do you develop the Menger Sponge?
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          What is the dimension of the Menger Sponge?
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          What are your thoughts about the Menger Sponge?
+        </p>
+      </statement>
+    </exercise>
+  </subsection>
+  <subsection>
+    <title>The Mandelbrot Set and Numberphile</title>
+    <p>
+      Another famous fractal is the Mandelbrot Set shown in <xref ref="fig_mandelbrot">Figure</xref>.
+    </p>
+    <figure xml:id="fig_mandelbrot">
+      <caption>The Mandelbrot Set</caption>
+      <image width="56%" source="images/mandlebrot.png"/>
+    </figure>
+    <p>
+      Numberphile is a popular math-related YouTube channel that covers a huge variety interesting high-level mathematics topics.
+      Numberphile is a fantastic resource to mathematics students.
+      We will look to Numberphile several times in this text.
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Watch Numberphile's video
+          <q>The Mandelbrot Set</q>. \cite{numberphile_mandelbrot}
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      \link{https://www.youtube.com/watch?v=NGMRB4O922I&amp;t=473s }
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Explain the process that determines whether or not a number will be in the Mandelbrot Set or not.
+        </p>
+      </statement>
+    </exercise>
+  </subsection>
+</section>

@@ -1,0 +1,10 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="chptJourney">
+  <title>Journey to Math</title>
+  <xi:include  href="intoToFractals.ptx"/>
+  <xi:include  href="definingDimension.ptx"/>
+  <xi:include  href="HWMindBoggling.ptx"/>
+  <xi:include  href="HwTheMengerSponge.ptx"/>
+  <xi:include  href="HWDefiningDimension.ptx"/>
+  <xi:include  href="HWPascalsTriangle.ptx"/>
+  <xi:include  href="section4-7.ptx"/>
+</chapter>

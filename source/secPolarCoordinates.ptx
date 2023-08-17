@@ -1,0 +1,211 @@
+<section xml:id="secPolarCoordinates">
+  <title>Polar Coordinates</title>
+  <introduction>
+    <p>
+          <idx><h>Polar Coordinates</h></idx>
+      We typically represent a point in the plane by measuring its distance in the <m>x</m>-direction and its distance in the <m>y</m>-direction.
+      For example,
+      the point <m>P=\left(\frac{1}{\sqrt{2}},\frac{1}{\sqrt{2}}\right)</m> is written to show that <m>P</m> is found by going
+      <m>1/\sqrt{2}</m> in the <m>x</m>-direction and
+      <m>1/\sqrt{2}</m> in the <m>y</m>-direction.
+      Coordinates like this are called rectangular coordinates
+      (because they fit nicely in a rectangular grid).
+    </p>
+    <figure xml:id="fig_coordinates_rect">
+      <caption>Polar Coordinates</caption>
+      <sidebyside>
+        <image width="90%" source="images/coordianates_rect.png"/>
+        <image width="90%" source="images/coordianates_polar.png"/>
+      </sidebyside>
+    </figure>
+    <p>
+      What if instead of thinking in terms of rectangles,
+      we thought of things in terms of circles?
+      Polar coordinates do just that.
+      Polar coordinates define a point by <m>(r, \theta)</m>.
+      That is, we need a radius and an angle of rotation.
+      We can get to the same point
+      <m>P=\left(\frac{1}{\sqrt{2}},\frac{1}{\sqrt{2}}\right)</m> by going out a distance of 1 and rotating <m>\pi/4</m> (45 degrees).
+    </p>
+    <p>
+      So the rectangular point <m>\left(\frac{1}{\sqrt{2}},\frac{1}{\sqrt{2}}\right)</m> can be written in polar coordinates as <m>\left(1,\frac{\pi}{4} \right)</m>.
+    </p>
+  </introduction>
+  <subsection>
+    <title>Polar Coordinates in Wolfram Cloud</title>
+    <p>
+      So what kind of things can we plot in polar coordinates?
+      We will explore polar coordinates in Wolfram Cloud,
+      a free version of the powerful Computer Algebra System (CAS), Wolfram`s Mathematica.
+    </p>
+    <p>
+      Wolfram Cloud
+      (and Mathematica)
+      can handle really advanced mathematics easily,
+      and polar coordinates are not a problem.
+      We will take a look today.
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Open an account at wolframcloud.com and then open a new notebook.
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      We can plot a function with polar coordinates with this formula <c>PolarPlot[ radius function, {theta,
+      starting angle,} <c>ending angle </c>]</c>.
+    </p>
+    <remark>
+      <p>
+        <em>Be careful!</em> Wolfram Cloud and Mathematica are very sensitive with syntax.
+        A misplaced comma or capitalization will result in an error.
+      </p>
+    </remark>
+    <remark>
+      <p>
+        Mathematica functions are <em>always</em>
+        capitalized and inputs are included with brackets.
+        So <m>\sin(3x)</m> is entered in Wolfram language as <c>Sin[3x]</c>.
+      </p>
+    </remark>
+    <exercise>
+      <statement>
+        <p>
+          Try plotting the following functions.
+          Sketch your graphs below.
+        </p>
+      </statement>
+    </exercise>
+    <ol>
+      <li>
+        <p>
+          <m>r(\theta) = \theta, \; 0 \leq \theta \leq 2\pi</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>r(\theta)=2sin(\theta), \: 0 \leq \theta \leq 2\pi</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>r(\theta)= cos(4\theta), \; 0\leq \theta \leq 2\pi</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>r(\theta) = \ln(\theta), \; 1 \leq \theta \leq 10\pi</m> (Try <c>Log[ ]</c> for the natural logarithm.)
+        </p>
+      </li>
+    </ol>
+    <p>
+      This last one is called the logarithmic spiral.
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Graph the logarithmic spiral again,
+          but this time let <m>\theta</m> go from 1 to <m>50\pi</m>.
+        </p>
+      </statement>
+    </exercise>
+  </subsection>
+  <subsection>
+    <title>The Manipulate Function</title>
+    <p>
+      Wolfram Cloud can create some very interesting visuals.
+      We will use the <c>Manipulate[ ]</c> function to visualize how these polar plots are changing with certain parameters.
+    </p>
+    <p>
+      We will use an <em>outside-in</em> writing style.
+      We are accustomed to writing left to write,
+      but when writing with nestled functions, lists,
+      and parameters it is very easy to misplace a comma, a bracket,
+      a brace, etc.
+      By writing your code with the outside functions first and the code inside of that next,
+      it is easier to keep up with all of the details.
+      Be sure to write the following exercises as directed.
+    </p>
+    <exercise xml:id="polarplot2">
+      <statement>
+        <p>
+          Type the following into Wolfram Cloud in the following order:
+          <ol>
+            <li>
+              <p>
+                <c>Manipulate[ ]</c> (Manipulate is the outermost function.)
+              </p>
+            </li>
+            <li>
+              <p>
+                <c>Manipulate[ PolarPlot[ ] ]</c> (We now have a polar plot inside our Manipulate function.)
+              </p>
+            </li>
+            <li>
+              <p>
+                <c>Manipulate[ PolarPlot[ Sin[a*theta ], {theta, 1, 2Pi} ] ]</c>
+              </p>
+            </li>
+            <li>
+              <p>
+                <c>Manipulate[ PolarPlot[ Sin[a*theta], {theta, 1, 2Pi} ], {a, 1, 10}]</c>
+              </p>
+            </li>
+            <li>
+              <p>
+                <c>Manipulate[ PolarPlot[ Sin[a*theta], {theta, 1, 2Pi}, PlotRange -> {{-1,1},{-1,1} }],</c> <c>{a, 1, 10}]</c> (We add a plot range to our polar plot.)
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Describe what you see in the plot from <xref ref="polarplot2">Exercise</xref>.
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      Let's try another one!
+    </p>
+    <exercise xml:id="polarplot1">
+      <statement>
+        <p>
+          Type the following into Wolfram Cloud in the following order:
+          <ol>
+            <li>
+              <p>
+                <c>Manipulate[ ]</c> (Manipulate is the outermost function.)
+              </p>
+            </li>
+            <li>
+              <p>
+                <c>Manipulate[ PolarPlot[ ] ]</c> (We now have a polar plot inside our Manipulate function.)
+              </p>
+            </li>
+            <li>
+              <p>
+                <c>Manipulate[ PolarPlot[ Sin[a*theta ]*Cos[b*theta], {theta, 0, 10Pi} ], {a, -2, 2}, {b, -2, 2} ]</c>
+              </p>
+            </li>
+            <li>
+              <p>
+                <c>Manipulate[ PolarPlot[ Sin[a*theta ]*Cos[b*theta], {theta, 0, 10Pi}, PlotRange -></c> <c>{{-1,1},{-1,1}}], {a, -2, 2}, {b, -2, 2}]</c> (We add a plot range to our polar plot.)
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Describe what you see in the plot from <xref ref="polarplot1">Exercise</xref>.
+        </p>
+      </statement>
+    </exercise>
+  </subsection>
+</section>

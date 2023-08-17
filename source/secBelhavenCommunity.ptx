@@ -1,0 +1,73 @@
+<section xml:id="secBelhavenCommunity">
+  <title>The Belhaven MCS Community</title>
+  <introduction>
+    <p>
+          <idx><h>The Belhaven MCS Community</h></idx>
+    </p>
+    <figure>
+      <image width="15%" source="images/belhavenSTEM logo.png"/>
+    </figure>
+    <p>
+      The Belhaven MCS Department,
+      as part of the Belhaven Division of Natural Science (Belhaven STEM), provides a number of opportunities we feel develop critical thinking,
+      professionalism, and vision for the future.
+    </p>
+  </introduction>
+  <subsection>
+    <title>The MCS Mission Statement</title>
+    <p>
+          <idx><h>MCS Mission Statement</h></idx>
+    </p>
+    <p>
+      Remember the Belhaven MCS mission statement?
+      <em>I pursue my career and calling through community,
+      academic experiences, and technology</em>.
+      We will look at these pillars of community,
+      academic exeperiences, and technology unique to Belhaven MCS.
+    </p>
+  </subsection>
+  <subsection>
+    <title>Community</title>
+    <p>
+      We already mentioned the importance of Microsoft Teams in <xref ref="intro">Section</xref>.
+      Again, joining the BelhavenSTEM team is the quickest way to connect to the Belhaven STEM community.
+    </p>
+    <p>
+      Other parts of the Belhaven MCS community include
+      <ol>
+        <li>
+          <p>
+            Math Club: Belhaven's student led mathematics club.
+          </p>
+        </li>
+        <li>
+          <p>
+            MAA membership: included with a Math Club membership.
+            MAA members can participate in MAA conferences including the annual LA-MS Sectional Meetings.
+          </p>
+        </li>
+        <li>
+          <p>
+            ACM membership: For those leaning in the computing direction,
+            join Belhaven's ACM student chapter.
+          </p>
+        </li>
+        <li>
+          <p>
+            Social Events: The department hosts seminars, lunches,
+            and get together throught the year.
+          </p>
+        </li>
+        <li>
+          <p>
+            Belhaven Maker Campus: Math club members have access to the Maker Campus' labs including 3D printing, Arduino electronics, CNC machinery,
+            and more!
+          </p>
+        </li>
+      </ol>
+    </p>
+    <p>
+      <image width="56%" source="images/MakerCampus_Logo.png"/>
+    </p>
+  </subsection>
+</section>

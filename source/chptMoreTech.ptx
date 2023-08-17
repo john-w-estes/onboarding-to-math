@@ -1,0 +1,5 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="chptMoreTech">
+  <title>More Technology</title>
+  <xi:include  href="secIntrotoArduino.ptx"/>
+  <xi:include  href="secHWArduinoProjects.ptx"/>
+</chapter>

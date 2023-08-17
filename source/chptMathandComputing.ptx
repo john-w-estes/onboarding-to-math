@@ -1,0 +1,4 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="chptMathandComputing">
+  <title>Mathematics with Computers</title>
+  <xi:include  href="secGeogebraAndLinear.ptx"/>
+</chapter>

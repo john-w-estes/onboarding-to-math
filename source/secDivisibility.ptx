@@ -1,0 +1,143 @@
+<section xml:id="secDivisibility">
+  <title>Divisibility and Primes in Mathigon</title>
+  <introduction>
+    <p>
+          <idx><h>Divisibility and Primes in Mathigon</h></idx>
+      Mathigon is a fantastic and quickly-growing resource for mathematics.
+      There goal is offer <sq>free tools,
+      courses and manipulatives to make online learning more interactive and engaging than before.
+      We will take now look at one of Mathigon</sq>s courses
+      <q>Divisibility and Primes</q>.
+    </p>
+    <p>
+      From mathigon.org, navigate to Courses <m>\rightarrow</m> Foundations
+      <m>\rightarrow</m> Divisibility and Primes.
+      Answer the following questions.
+    </p>
+  </introduction>
+  <subsection>
+    <title>Divisibility</title>
+    <exercise>
+      <statement>
+        <p>
+          How do you know a number is divisible by the following numbers?
+        </p>
+      </statement>
+    </exercise>
+    <ol>
+      <li>
+        <p>
+          2:
+        </p>
+      </li>
+      <li>
+        <p>
+          5:
+        </p>
+      </li>
+      <li>
+        <p>
+          4:
+        </p>
+      </li>
+      <li>
+        <p>
+          8:
+        </p>
+      </li>
+      <li>
+        <p>
+          3:
+        </p>
+      </li>
+      <li>
+        <p>
+          9:
+        </p>
+      </li>
+      <li>
+        <p>
+          6:
+        </p>
+      </li>
+    </ol>
+  </subsection>
+  <subsection>
+    <title>Famous Prime Results</title>
+    <exercise>
+      <statement>
+        <p>
+          By use of the Sieve of Eratosthenes,
+          how many prime numbers are less than 100?
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          How many prime numbers are there?
+          Who proved this result?
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Is 17485637 a prime number?
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Give an 8-digit prime number.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          What is the Goldbach Conjecture?
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Express 1763858 as a sum of two prime numbers.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          How is the Riemann Hypothesis connected to prime numbers?
+        </p>
+      </statement>
+    </exercise>
+  </subsection>
+  <subsection>
+    <title>LCM and GCD</title>
+    <exercise>
+      <statement>
+        <p>
+          Find the lcm<m>(44, 92)</m>.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Find the <m>\gcd(192, 96)</m>.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          RSA Cryptography depends on what key mathematical concept?
+        </p>
+      </statement>
+    </exercise>
+  </subsection>
+</section>

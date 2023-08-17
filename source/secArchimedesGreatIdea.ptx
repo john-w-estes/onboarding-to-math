@@ -1,0 +1,265 @@
+<section xml:id="secArchimedesGreatIdea">
+  <title>Archimedes' Great Idea</title>
+  <introduction>
+    <p>
+          <idx><h>Archimedes' Great Idea</h></idx>
+      Modern Calculus was formulated by Sir Isaac Newton and Gotfriend Leibniz in 1687.
+      But the great mathematician, Archimedes,
+      was really close to developing Calculus in 300 B.C. (Almost 2000 years before Newton and Leibniz!) with the formation of the limit:
+      the starting point of well-defined calculus
+      (though he never used the word
+      <q>limit</q>
+      in his construction.).
+    </p>
+  </introduction>
+  <subsection>
+    <title>What is this weird number?</title>
+    <p>
+      To illustrate how Archimedes was thinking in terms of calculus,
+      we should think about circles.
+      Ancient cultures were puzzled that every circle carried an unusual trait with it.
+      That is, if the circle had diameter <m>d</m>,
+      then it would take length <m>3d</m> plus a tiny bit more to wrap around the circumference.
+    </p>
+    <p>
+      This fact was true with every circle,
+      and each culture attempted to calculate the number that was the ratio of circumference to diameter.
+      No one in the ancient world estimated it as well as Archimedes did.
+    </p>
+    <p>
+      So what is this number?
+      We define <m>\pi</m> as <m>\pi = \dfrac{c}{d}</m> for the circle with circumference <m>c</m> and diameter <m>d</m>.
+      Computers can now calculate <m>\pi</m> to millions of digits,
+      but <m>\pi</m> eluded the greatest of minds for centuries.
+    </p>
+    <p>
+      For reference, here are the first 30 digits of <m>\pi</m>.
+      <me>
+        \pi \approx 3.14159265358979323846264338327
+      </me>
+    </p>
+  </subsection>
+  <subsection>
+    <title>What about Archimedes?</title>
+    <p>
+      Archimedes was interested in figuring out the very mysterious number of <m>\pi</m>,
+      and eventually estimated <m>\pi</m> to be between 21/7 and 210/71
+      (or between 3.1408 and 3.1429).
+      That's really, really close for 300 B.C.
+    </p>
+    <p>
+      How did he do it?
+      For the ancient Greeks, geometry with circles was really difficult,
+      but geometry with polygons was well-known.
+      Archimedes was particularly gifted in calculation!
+    </p>
+    <figure xml:id="fig_archi_pi">
+      <caption>Archimedes' Construction</caption>
+      <image width="41%" source="images/archi_pi.png"/>
+    </figure>
+    <p>
+      He first inscribed a hexagon in a circle with radius 1 like in <xref ref="fig_archi_pi">figure</xref> and calculated its area.
+      Then, realizing a dodecagon would fill up the circle a little better than the hexagon,
+      he calculated the area of a dodecagon inscribed in a circle with radius 1.
+      Then he calculated areas of 24-gons, 48-gons, and 96-gons
+      (all by hand and without modern trigonometry),
+      all inscribed in a circle of radius 1.
+      He noticed that these areas trend towards some number really close to what we now call <m>\pi</m>.
+    </p>
+  </subsection>
+  <subsection>
+    <title>Following in the Footsteps of a Giant</title>
+    <p>
+      Archimedes' calculation of <m>\pi</m> is not an easy task to follow.
+      Instead, we will mimic Archimedes' strategy to deduce the area of a circle.
+      Our idea follows these steps:
+      <ul>
+        <li>
+          <p>
+            Take a regular polygon on <m>n</m> sides inscribed in a circle.
+          </p>
+        </li>
+        <li>
+          <p>
+            Divide the polygon into <m>n</m> triangles with one vertex at the circle's center.
+          </p>
+        </li>
+        <li>
+          <p>
+            Calculate the area of the polygon in terms of these <m>n</m> triangles.
+          </p>
+        </li>
+        <li>
+          <p>
+            Let the center angle go to zero.
+          </p>
+        </li>
+      </ul>
+    </p>
+    <p>
+      Consider the last step a bit.
+      If the center angle gets smaller,
+      then there must be more triangles,
+      meaning that the polygon as more sides.
+      Eventually, the number of sides goes to infinity resulting in a circle.
+      Let's give it a shot!
+    </p>
+    <figure xml:id="fig_openstaxpolygon">
+      <caption>Inscribed polygon</caption>
+      <image width="56%" source="images/openstaxpolygon.png"/>
+    </figure>
+    <exercise>
+      <statement>
+        <p>
+          Referring to <xref ref="fig_openstaxpolygon">Figure</xref>,
+          deduce the height <m>h</m> and base <m>b</m> of the isosceles triangle in terms of <m>\theta</m> and <m>r</m>.
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      We'll do this one together.
+      From trigonometry, we remember that
+      <m>\sin{\alpha} = \dfrac{opposite side}{hypotenuse}</m> and <m>\cos{\alpha} = \dfrac{adjacent}{hypotenuse}</m>.
+      By dividing the isosceles triangle down the middle,
+      we obtain a right triangle.
+      From there,
+      <men xml:id="ex_eq1">
+        \dfrac{h}{r} = \cos\left(\dfrac{\theta}{2} \right) \Rightarrow h = r\cos\left(\dfrac{\theta}{2} \right)
+      </men>
+      and
+      <men xml:id="ex_eq2">
+        \dfrac{b/2}{r} = \sin\left(\dfrac{\theta}{2} \right) \Rightarrow b = 2r\sin\left(\dfrac{\theta}{2} \right)
+      </men>.
+    </p>
+    <p>
+      Great!
+    </p>
+    <exercise xml:id="ex_trianglearea">
+      <statement>
+        <p>
+          Use <xref ref="ex_eq1">Equation</xref>
+          and <xref ref="ex_eq2">Equation</xref>
+          to find the area of the isosceles triangle. (Hint:
+          <m>\dfrac{1}{2}\sin{\theta} = \sin\left(\dfrac{\theta}{2} \right)\cos\left(\dfrac{\theta}{2} \right)</m>.)
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          In <xref ref="ex_trianglearea">Exercise</xref>,
+          we found the area of one triangle making up our polygon on <m>n</m> sides.
+          So now find the area of the <m>n</m>-gon.
+          (Let <m>\theta = 2\pi/n</m> since the <m>n\theta = 2\pi</m>.)
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      Before attempting this exercise,
+      we recommend using Microsoft Excel
+      (or Google Sheets).
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Now use a table to deduce the area of <m>n</m>-gons with <m>n</m> getting exceedingly large.
+          The higher the value of <m>n</m>,
+          the closer to the area of the circle we approximate.
+          To simplify your calculations, let <m>r = 1</m>.
+        </p>
+      </statement>
+    </exercise>
+    <tabular>
+      <row bottom="minor">
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell><m>n</m></cell>
+        <cell><m>\sin\left(\frac{2\pi}{n}\right)</m><nbsp/></cell>
+        <cell><m>A = \frac{1}{2} nr^2\sin\left(\frac{2\pi}{n}\right)</m>
+          \hline
+          <m>n = 6</m></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row bottom="minor">
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell><m>n = 12</m></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row bottom="minor">
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell><m>n = 24</m></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row bottom="minor">
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell><m>n = 48</m></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row bottom="minor">
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell><m>n = 96</m></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row bottom="minor">
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell><m>n = 1000</m></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row bottom="minor">
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell><m>n = 10000</m></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row bottom="minor">
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+    </tabular>
+    <exercise>
+      <statement>
+        <p>
+          From your calculation,
+          hypothesize the area of a circle with radius <m>r</m>.
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      {This project can be found in <em>Calculus Vol. 1</em>, OpenStax.} \cite{openstax_calc1}
+    </p>
+  </subsection>
+</section>

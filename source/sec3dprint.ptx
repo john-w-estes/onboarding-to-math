@@ -1,0 +1,158 @@
+<section xml:id="sec3dprint">
+  <title>Introduction to 3D Printing</title>
+  <introduction>
+    <p>
+          <idx><h>Introduction to 3D Printing</h></idx>
+      Becoming a skilled printer take time, patience, and a lot of mistakes!
+      In this section,
+      we will not endeavor to take a deep dive into all aspects of 3D printing,
+      but instead we will give a quick overview of this fun,
+      applicable, and quickly-growing field of technology.
+    </p>
+  </introduction>
+  <subsection>
+    <title>FDM Printers</title>
+    <p>
+      Fused deposition modeling (FDM) printers work by taking thermoplastic material at a high temperature and extruding it through a nozzle onto a bed layer by layer.
+      Over time, these layers stack to form a solid, 3-dimensional object.
+      FDM printing is the most common and accessible way to 3D-print.
+    </p>
+    <p>
+      FDM materials vary in strength and flexibility.
+      At Belhaven, we typically print in PLA filament,
+      a cheap and dependable material.
+      Other filaments include ABS
+      (for pieces needed higher temperature tolerance),
+      TPU (super-flexible, rubbery material), nylon,
+      and filaments with additives such as wood,
+      bronze, carbon fiber, and glow-in-the-dark particles.
+    </p>
+    <remark>
+      <p>
+        An easy to way to think of FDM printing is like the reverse of erosion.
+        Instead particles slowly being pulled away, they are slowly added.
+      </p>
+    </remark>
+    <figure xml:id="fig_prusai3">
+      <caption>The Prusa i3 MK3S is a FDM printer</caption>
+      <image width="56%" source="images/prusa.png"/>
+    </figure>
+    <p>
+      You will learn to use a FDM printer in this course.
+    </p>
+  </subsection>
+  <subsection>
+    <title>SLA Printers</title>
+    <p>
+      Stereolithography (SLA) printers actually proceeded FDM printing,
+      being invented in the 1980's \cite{formlabs}, but has not be as publicly accessible until recent years.
+      SLA printers use lasers to cure resin into a hardened plastic.
+    </p>
+    <figure xml:id="fig_prusai3">
+      <caption>The Peopoly Phenom is a SLA printer</caption>
+      <image width="56%" source="images/peopoly.png"/>
+    </figure>
+  </subsection>
+  <subsection>
+    <title>The Software of Printing</title>
+    <p>
+      One of the exciting capabilities of 3D printing is that it takes something digital and manifests it physically.
+      This process involves
+      <ol>
+        <li>
+          <p>
+            finding a digital object in the form of an STL file,
+          </p>
+        </li>
+        <li>
+          <p>
+            placing this object along with print settings on a canvas in slicing software,
+          </p>
+        </li>
+        <li>
+          <p>
+            slicing a printable file (Slicing is the process of writing a program for the printer to print a specific object.),
+          </p>
+        </li>
+        <li>
+          <p>
+            transferring the file to the printer.
+          </p>
+        </li>
+      </ol>
+    </p>
+    <p>
+      This may sound like a complicated process,
+      but these steps happen pretty quickly in practice.
+      We will learn each step in this chapter.
+    </p>
+  </subsection>
+  <subsection>
+    <title>Printers at Belhaven University</title>
+    <p>
+      The Belhaven Maker Campus features several printing labs with both FDM and SLA printers.
+    </p>
+    <p>
+      In Fitzhugh Hall,
+      you can find a variety of printing options ranging from the tiny Monoprice Mini (120 mm <times/> 120mm <times/> 120mm) to the enormous Formbot Raptor 2 (400mm <times/> 400mm <times/> 700mm).
+    </p>
+    <p>
+      Additionally, you can find
+      <ul>
+        <li>
+          <p>
+            Prusa i3 MK3S
+          </p>
+        </li>
+        <li>
+          <p>
+            Prusa i3 MK3S with MMU2 (prints up to 5 colors)
+          </p>
+        </li>
+        <li>
+          <p>
+            Prusa Mini
+          </p>
+        </li>
+        <li>
+          <p>
+            MakerGear M3 IE (two extruders running independently)
+          </p>
+        </li>
+        <li>
+          <p>
+            Artillery Sidewinder X1
+          </p>
+        </li>
+        <li>
+          <p>
+            Prusa SL1S (SLA printer)
+          </p>
+        </li>
+      </ul>
+    </p>
+    <p>
+      Belhaven's Art and Design Department houses another 3D printing lab that includes
+      <ul>
+        <li>
+          <p>
+            Flashforge Finder
+          </p>
+        </li>
+        <li>
+          <p>
+            Lulzbot Workhorse with Pallette 2 (multiple colors)
+          </p>
+        </li>
+        <li>
+          <p>
+            Peopoly Phenom (SLA printer)
+          </p>
+        </li>
+      </ul>
+    </p>
+    <p>
+      In total, members the Maker Campus have plenty of opportunities to print from early entry printing all the way to advanced printing projects.
+    </p>
+  </subsection>
+</section>

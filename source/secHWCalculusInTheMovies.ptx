@@ -1,0 +1,64 @@
+<section xml:id="secHWCalculusInTheMovies">
+  <title>HOMEWORK: Calculus in the Movies</title>
+  <introduction>
+    <p>
+          <idx><h>HOMEWORK: Calculus in the Movies</h></idx>
+    </p>
+    <figure>
+      <image width="73%" source="images/nemo.png"/>
+    </figure>
+    <p>
+      Using Infinitely close approximations displays power of calculus.
+      Did you know that you can see calculus at work when you watch Finding Nemo?
+    </p>
+    <p>
+      In fact Pixar Studios continually conducts rigorous mathematical research.
+      One of the mathematicians working for Pixar is Tony Rose,
+      the first PhD in mathematics to win an Academy Award!
+    </p>
+  </introduction>
+  <subsection>
+    <title>Numberphile's Math and Movies</title>
+    <p>
+      Numberphile visited Pixar Studios to meet with Tony Rose to discuss some of the mathematics behind their movies.
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Watch Numberphile's YouTube video "Math and Movies (Animation at Pixar)"\cite{numberphile_movies}.
+        </p>
+      </statement>
+    </exercise>
+    <p>
+      \link{https://youtu.be/mX0NB9IyYpU }
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Explain how the concept of a limit has helped Pixar animators.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Why do newer animated movies look better than the pioneers of 3D animation like Toy Story and Ice Age?
+        </p>
+      </statement>
+    </exercise>
+  </subsection>
+  <subsection>
+    <title>What about other Movies?</title>
+    <p>
+      It's easy to see the use of mathematical computation in animated films dependent on computer modeling,
+      but what about other movies?
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Where do you think?
+        </p>
+      </statement>
+    </exercise>
+  </subsection>
+</section>

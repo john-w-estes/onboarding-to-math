@@ -1,0 +1,9 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="chaptDiscreteTopics">
+  <title>Discrete Topics</title>
+  <xi:include  href="secPrimes.ptx"/>
+  <xi:include  href="secDivisibility.ptx"/>
+  <xi:include  href="secGraphTheory.ptx"/>
+  <xi:include  href="secHWBiggestPrime.ptx"/>
+  <xi:include  href="secHWtheFourColor.ptx"/>
+  <xi:include  href="secHWtheFibonacciSequence.ptx"/>
+</chapter>

@@ -1,0 +1,9 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="chpt3DPrinting">
+  <title>3D Printing</title>
+  <xi:include  href="sec3dprint.ptx"/>
+  <xi:include  href="secFindingThings.ptx"/>
+  <xi:include  href="sectinkercad.ptx"/>
+  <xi:include  href="secPrusaSlicer.ptx"/>
+  <xi:include  href="secHWTinkercad.ptx"/>
+  <xi:include  href="secHW3DPrint.ptx"/>
+</chapter>

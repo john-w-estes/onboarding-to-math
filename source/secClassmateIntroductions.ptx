@@ -1,0 +1,45 @@
+<section xml:id="secClassmateIntroductions">
+  <title>Classmate Introductions</title>
+  <p>
+        <idx><h>Classmate Introductions</h></idx>
+  </p>
+  <p>
+    Community is our first pillar of emphasis.
+    To get started,
+    locate four classmates that you have not met before.
+    Then find out
+    <ul>
+      <li>
+        <p>
+          where they are from
+        </p>
+      </li>
+      <li>
+        <p>
+          what their major is
+        </p>
+      </li>
+      <li>
+        <p>
+          one interesting fact about them.
+        </p>
+      </li>
+    </ul>
+  </p>
+  <tabular>
+    {
+    | >{\arraybackslash}X
+    | >{\arraybackslash}X | }
+    \hline
+    1. &amp; 2.
+    &amp;
+    &amp;
+    &amp;
+    \hline
+    3. &amp; 4.
+    &amp;
+    &amp;
+    &amp;
+    \hline
+  </tabular>
+</section>

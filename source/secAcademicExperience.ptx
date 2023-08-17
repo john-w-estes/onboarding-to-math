@@ -1,0 +1,223 @@
+<section xml:id="secAcademicExperience">
+  <title>Belhaven MCS Academic Experiences</title>
+  <introduction>
+    <p>
+          <idx><h>Belhaven MCS Academic Experiences</h></idx>
+      In addition to core classes such as Calculus, Linear Algebra, Discrete Mathematics, and Differential Equations, Belhaven's MCS department delivers a number curriculum add-ons.
+      Let's take a look at what additional academic experiences we offer.
+    </p>
+  </introduction>
+  <subsection>
+    <title>The Eyes of Faith Portfolio</title>
+    <figure xml:id="eyesoffaith">
+      <caption><em>Mathematics through the Eyes of Faith</em></caption>
+      <image width="50%" source="images/eyesoffaith.png"/>
+    </figure>
+    <p>
+      What does the Bible say about mathematics?
+      What does life as a Christian mathematician entail?
+      What role does change and randomness play in God's creation?
+      These are deep questions that we will ask ourselves during throughout our mathematics coursework at Belhaven.
+    </p>
+    <p>
+      The book <em>Mathematics through the Eyes of Faith</em>
+      by Russell Howell and James Bradley approaches these questions in an intellectually honest manner \cite{eyesoffaith}. Students will use this text as a reference to write their own thoughts in their
+      <em>Eyes of Faith Portfolio</em>,
+      a collaboration of Eyes of Faith papers written over several courses covering chapter of our reference text.
+    </p>
+    <p>
+      The chapter breakdown is summarized in the following table.
+      (You might want to hang on to this one.)
+    </p>
+    <tabular>
+      <row bottom="minor">
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell>Course</cell>
+        <cell>Course Name</cell>
+        <cell>Eyes Chapter</cell>
+      </row>
+      <row bottom="minor">
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell>MAT 207</cell>
+        <cell>Calculus I</cell>
+        <cell>1. The Big Questions</cell>
+      </row>
+      <row bottom="minor">
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell>MAT 208</cell>
+        <cell>Calculus II</cell>
+        <cell>2. Historical Context</cell>
+      </row>
+      <row bottom="minor">
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell>MAT 209</cell>
+        <cell>Calculus III</cell>
+        <cell>3. Infinity</cell>
+      </row>
+      <row bottom="minor">
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell>MAT 210</cell>
+        <cell>Calculus IV</cell>
+        <cell>4. Beauty</cell>
+      </row>
+      <row bottom="minor">
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell>MAT 303</cell>
+        <cell>Discrete Math</cell>
+        <cell>6. Proof and Truth</cell>
+      </row>
+      <row bottom="minor">
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell>MAT 304</cell>
+        <cell>Differential Equations</cell>
+        <cell>8. Effectiveness</cell>
+      </row>
+      <row bottom="minor">
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell>MAT 305</cell>
+        <cell>Stats \</cell>
+        <cell>Probability</cell>
+        <cell>5. Chance</cell>
+      </row>
+      <row bottom="minor">
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell>MAT 311</cell>
+        <cell>Linear Algebra</cell>
+        <cell>4. Dimension</cell>
+      </row>
+      <row bottom="minor">
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell>MAT 410</cell>
+        <cell>Advanced Calculus</cell>
+        <cell>9. Epistemology</cell>
+      </row>
+      <row bottom="minor">
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell>MAT 491</cell>
+        <cell>Intro to Math Research I</cell>
+        <cell>10. Ontology</cell>
+      </row>
+      <row bottom="minor">
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+      <row>
+        <cell>MAT 492</cell>
+        <cell>Intro to Math Research II</cell>
+        <cell>11. An Apology</cell>
+      </row>
+      <row bottom="minor">
+        <cell></cell>
+        <cell></cell>
+        <cell></cell>
+      </row>
+    </tabular>
+  </subsection>
+  <subsection>
+    <title>Major's Field Test</title>
+    <p>
+      Every Belhaven math major takes the standardized Major's Field Test their senior year.
+      The exam is conducted nationally and covers everything from Calculus to Linear Algebra to Algebra and Number Theory.
+      In order to prepare for the MFT Exam,
+      students take MFT Quizzes in key classes and review these quizzes in MAT 492.
+    </p>
+  </subsection>
+  <subsection>
+    <title>Mathematical Research</title>
+    <p>
+      In MAT 391, 392, 491 and 492,
+      students participate in the mathematical research process reviewing recent results of a select topic and attempting to further it.
+      These students will present their findings as a poster and presentation at the Belhaven University Undergraduate Research Symposium (BUURS).
+    </p>
+  </subsection>
+  <subsection>
+    <title>For Engineering Majors</title>
+    <p>
+      In addition to academic experiences math majors experience,
+      students in Belhaven's engineering partnership
+      <ul>
+        <li>
+          <p>
+            learn AutoCAD in PHY 119 Intro to Engineering
+          </p>
+        </li>
+        <li>
+          <p>
+            interact with professional engineers from places like Yates construction, Raytheon,
+            and Asset Engineering.
+          </p>
+        </li>
+        <li>
+          <p>
+            take site visits to Ole Miss, Mississippi State,
+            and places like Nissan and the U.S. Army Corps of Engineers Research and Development Center (ERDC).
+          </p>
+        </li>
+      </ul>
+    </p>
+  </subsection>
+  <subsection>
+    <title>Actuarial Sciences</title>
+    <p>
+      For those majoring in Actuarial Sciences (ASM), students will
+      <ul>
+        <li>
+          <p>
+            learn statistical software such as R
+          </p>
+        </li>
+        <li>
+          <p>
+            sit for the first actuarial exam,
+            the Probability Exam (SOA Exam P)
+          </p>
+        </li>
+      </ul>
+    </p>
+  </subsection>
+</section>

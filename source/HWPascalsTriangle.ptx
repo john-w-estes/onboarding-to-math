@@ -1,0 +1,17 @@
+<section xml:id="HWPascalsTriangle">
+  <title>HOMEWORK: Pascal's Triangle</title>
+  <p>
+        <idx><h>HOMEWORK: Pascal's Triangle</h></idx>
+  </p>
+  <p>
+    Pascal's Triangle is an easy construction that has a variety of interesting patterns and applications.
+    Pascal's Triangle is named after mathematician Blaise Pascal,
+    considered the father of Probability Theory.
+    Pascal used Pascal's Triangle to calculate binomial probability,
+    but the triangle was known and in use other parts of the world centuries before Pascal.
+  </p>
+  <figure xml:id="pascal_tri">
+    <caption>Pascal's Triangle</caption>
+    <image width="56%" source="images/pascal triangle.png"/>
+  </figure>
+</section>

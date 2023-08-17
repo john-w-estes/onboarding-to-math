@@ -1,0 +1,7 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="chaptBelhavenMath">
+  <title>Belhaven Mathematics</title>
+  <xi:include  href="secIntro.ptx"/>
+  <xi:include  href="secHowToBeSuccessful.ptx"/>
+  <xi:include  href="secClassmateIntroductions.ptx"/>
+  <xi:include  href="secHWtheMajorFair.ptx"/>
+</chapter>
